@@ -1,0 +1,12 @@
+This is a new text file created as per the request.
+
+js accept camelCase 
+
+Rust accept snack_case
+
+
+fn mean function
+
+main() // first entry point
+
+tom's obvious tamil language
