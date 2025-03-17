@@ -6,7 +6,7 @@
 
 fn main() {
     
-    let num:u8= 255;
+    let num:u8 = 255;
 
     print!("The number is: {}", num);
 }
