@@ -9,4 +9,22 @@ fn mean function
 
 main() // first entry point
 
-tom's obvious tamil language
+tom's obvious tamil language  stand of toml
+
+
+ cargo build
+ cargo run
+
+
+ther are two types of datatype
+
+1. scalar Type 
+        1. integers 
+        2.Floating-Point
+2. compound types 
+        1. Primitive Types 
+                1. Arrays
+                2.Tuple
+        2. Complex Types
+                1.String
+
