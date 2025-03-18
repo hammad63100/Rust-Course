@@ -17,6 +17,8 @@
 
 
 // &str &  string data type
+//String - Dynamic Length Strings - Heap Allocated
+//&str Fixed Length Strings Special memory
 fn main() {
     // let string_latraliy = "Hello, Hammad";
     // println!("{}", string_latraliy);
