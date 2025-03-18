@@ -19,14 +19,22 @@
 // &str &  string data type
 //String - Dynamic Length Strings - Heap Allocated
 //&str Fixed Length Strings Special memory
+// fn main() {
+//     // let string_latraliy = "Hello, Hammad";
+//     // println!("{}", string_latraliy);
+
+
+//     let mut string_object:String = String::from("Hello, Hammad");
+
+//     string_object.push_str(" How are you?");
+//     println!("{}", string_object);
+
+// }
+
+
+
+//tupple
 fn main() {
-    // let string_latraliy = "Hello, Hammad";
-    // println!("{}", string_latraliy);
-
-
-    let mut string_object:String = String::from("Hello, Hammad");
-
-    string_object.push_str(" How are you?");
-    println!("{}", string_object);
-
+    let employee: (&str, &str, u32) = ("Hammad", "Software Engineer", 100000);
+    println!("{} is a {} and he earns {}", employee.0, employee.1, employee.2);
 }
