@@ -16,7 +16,8 @@
 
 
 
-// str string data type
+// &str &  string data type
 fn main() {
-    
+    let string_latraliy = "Hello, Hammad";
+    println!("{}", string_latraliy);
 }
