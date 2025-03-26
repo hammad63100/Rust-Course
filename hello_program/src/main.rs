@@ -33,8 +33,24 @@
 
 
 
+// //tupple
+// fn main() {
+//     let employee: (&str, &str, u32) = ("Hammad", "Software Engineer", 100000);
+//     println!("{} is a {} and he earns {}", employee.0, employee.1, employee.2);
+// }
+
 //tupple
-fn main() {
-    let employee: (&str, &str, u32) = ("Hammad", "Software Engineer", 100000);
-    println!("{} is a {} and he earns {}", employee.0, employee.1, employee.2);
+fn main(){
+    let emp_info:(&str, u8) = ("Hammad", 25);
+
+    let emp_name = emp_info.0;
+    let emp_age = emp_info.1;
+
+    println!("{} is {} years old", emp_name, emp_age);
+
+    // destructuring
+
+    let (employee_name, employee_age) = emp_info;
+    println!("{} is {} years old", employee_name, employee_age);
+
 }
