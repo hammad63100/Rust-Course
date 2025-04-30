@@ -71,13 +71,38 @@
 // }
 
 
-fn main() {
-    let num1:u8 = 5;
-    let num2:u8 = 10;
-    let result:u8 = add(num1, num2);
-    println!("The sum of {} and {} is {}", num1, num2, result);
-}
+// fn main() {
+//     let num1:u8 = 5;
+//     let num2:u8 = 10;
+//     let result:u8 = add(num1, num2);
+//     println!("The sum of {} and {} is {}", num1, num2, result);
+// }
 
-fn add(num1: u8, num2: u8) -> u8 {
-    num1 + num2
-}
+// fn add(num1: u8, num2: u8) -> u8 {
+//     num1 + num2
+// }
+
+
+// const  GOLOBAL_VARIBALE:u8 = 100;
+// fn  main() {
+//     let out_sidevariable = 5;
+
+//     {
+//         let inside_variable = 10;
+//         println!("Prints inside variable {}", inside_variable);
+//     println!("Print GOLOBAL_VARIBALE in inside fn {}",GOLOBAL_VARIBALE);
+        
+//     }
+    
+//     println!("Print Outside variable {}", out_sidevariable);
+//     println!("Print GOLOBAL_VARIBALE in main fn {}",GOLOBAL_VARIBALE);
+   
+
+// }
+
+// fn vlu(){
+//     println!("Print GOLOBAL_VARIBALE fully outside {}",GOLOBAL_VARIBALE);
+// }
+
+
+
